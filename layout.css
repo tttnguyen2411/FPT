@@ -1,0 +1,189 @@
+body{
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ .page{
+    max-width: 1000px;
+    margin: 0 auto ;
+ 
+ }
+ 
+ .page>header{
+    background-image: url('image/biacute.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    text-align: right;
+    position: relative;
+ }
+ 
+ .page>nav{
+    line-height: 40px ;
+    background-color: linen;
+    color: lightpink;
+    text-align: center;
+    font-variant: small-caps ;
+    position: relative;
+    border: 3px solid palevioletred;
+ }
+ 
+ .page>article{
+    min-width: height 400px;
+    width: 79%;
+    background-color:white;
+    float: left;
+ }
+ 
+ .page>aside{
+    min-height:400px;
+    width: 21%;
+    background-color: lightsalmon;
+    float: right;
+ }
+ 
+ .page>footer{
+    border-top: 5px double olivedrab;
+    line-height: 50px;
+    background-color: mediumaquamarine;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+ }
+ 
+ .page>nav>a{
+    color: peru;
+    text-decoration: none;
+    margin: 0 10px;
+ }
+ 
+ .page>nav>a:hover{
+    color: purple;
+    text-decoration: underline;
+ }
+ 
+ ul.vmenu{
+    margin: 10px 0px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    list-style: none;
+    text-align: left;
+ }
+ ul.vmenu>li>a{
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 35px;
+    border-bottom: 1px dotted teal;
+    color:green;
+    font-variant: small-caps;
+    background: url('image/icontim.png') no-repeat left center;
+ }
+ ul.vmenu>li>a:hover{
+    color: red;
+    font-weight: bolder;
+    background: url('image/iconcat.png') no-repeat left center;
+ }
+ 
+ .col-25{
+    width: 50%;
+    float: left;
+ }
+ .prod{
+    border-radius: 10px;
+    box-shadow: 0 10px 20px palevioletred;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+ }    
+ .prod>.name{
+    font-variant: small-caps;
+    color:purple;
+    font-weight: bold;
+ }
+ .prod>.image{
+    max-width: 80%;
+    height: 150px;
+    margin-bottom: 20px;
+ }   
+ .prod>.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: black;
+    position:absolute;
+    bottom: 5px;
+    left: 5px;
+ }
+ .prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+ }
+ .prod>.new-icon{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+ }
+ .new-icon{
+    width: 100px;
+    height: auto;
+ }
+
+ .top-right{
+    position: absolute ;
+    top: 0px;
+    right: 0px;
+    background-color: skyblue;
+    border-bottom-left-radius: 20px ;
+    padding: 5px 10px 5px 2px;
+ }
+.top-right a{
+   text-decoration: none;
+   color:white ;
+   font-size: 20px;
+   font-variant: small-caps;
+   font-weight: bolder;
+}
+.top-right a:hover{
+   color: khaki;
+   text-shadow: 0 0 10px;
+
+}
+.company-info{
+   position: absolute;
+   bottom: 30px;
+   left: 20px;
+
+}
+.company-info>.one{
+   font-size: 30px;
+   font-weight: bolder;
+   font-variant: small-caps;
+   text-shadow: 0 0 10px aqua ;
+   color: plum;
+}
+.company-info>.two{
+   font-size: 15px;
+   font-weight: lighter;
+   text-shadow: 0 0 7px crimson;
+   color: purple;
+   font-variant: small-caps;
+   
+}
+.detail{
+   width: 100%;
+}
+.detail-image{
+   width: 50%;
+   float: left;
+}
+.detail-content{
+   width: 50%;
+   float: right;
+}
+.detail-content>h2{
+   color: blue;
+   font-weight: bold;
+}
